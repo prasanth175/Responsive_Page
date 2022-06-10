@@ -3,7 +3,9 @@ import img1 from './Images/logo.png';
 import img2 from './Images/1.png';
 import img3 from './Images/2.png';
 import img4 from './Images/3.png';
-// import {FontAwesomeIcon} from "./fontAwesomeIcons/index";
+import {  FaFacebook, FaGlobe} from "react-icons/fa";
+import { IoMdCall } from "react-icons/io";
+
 
 
 
@@ -33,9 +35,9 @@ const Image = () => {
           <p>CHEMICALS & PROCESS <span>|</span> POWER <span>|</span> WATER & WASTE WATER <span>|</span> OILS & GAS <span>|</span> PHARMA <span>|</span> SUGARS & DISTILLERIES <span>|</span> PAPER & PULP <span>|</span> MARINE & DEFENCE <span>|</span> METAL & MINING <span>|</span> FOOD & BEVERAGE <span>|</span> PETROCHEMICAL & REFINERIES <span>|</span> SOLAR <span>|</span> BUILDING <span>|</span> HVAC <span>|</span> FIRE FIGHTING <span>|</span> AGRICULTURE & RESIDENTIAL</p>
       </div>
       <div className='footer'>
-          <p className='footer-txt1'>Toll free <strong>1800 200 1234</strong></p>
-          <p className='footer-txt1'>www.facebook.com/cripumps</p>
-          <p className='footer-txt1'>www.crigroups.com</p>
+          <div className='footer-txt1'><a href=''><span className="icon"></span><IoMdCall className='Icon'/>Toll free <strong>1800 200 1234</strong></a></div>
+          <div className='footer-txt1'><a href=''><span className="icon"></span><FaFacebook className='Icon'/>www.facebook.com/cripumps</a></div>
+          <div className='footer-txt1'><a href=''><span className="icon"></span><FaGlobe className='Icon'/>www.crigroups.com</a></div>
       </div>
         
     </div>

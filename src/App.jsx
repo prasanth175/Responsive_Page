@@ -5,12 +5,7 @@ import "./styles/style.css";
 const App = () => {
 
   return (
-  <div>
-    <Image />
-
-    
-      
-    </div>
+  <div><Image /></div>
   );
 };
 
